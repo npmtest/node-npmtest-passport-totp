@@ -1,4 +1,7 @@
-# test coverage for  [passport-totp (v0.0.2)](https://github.com/jaredhanson/passport-totp)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-totp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-totp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-totp.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-totp)
+# npmtest-passport-totp
+
+#### basic test coverage for  [passport-totp (v0.0.2)](https://github.com/jaredhanson/passport-totp)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-totp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-totp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-totp.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-totp)
+
 #### TOTP authentication strategy for Passport.
 
 [![NPM](https://nodei.co/npm/passport-totp.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/passport-totp)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-passport-totp/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-passport-totp/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-passport-totp/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-passport-totp/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-passport-totp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-passport-totp/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-passport-totp/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-passport-totp/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-passport-totp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-passport-totp/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-passport-totp/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-passport-totp/build/coverage.html/index.html)
 
@@ -89,7 +92,8 @@
     "scripts": {
         "test": "NODE_PATH=./lib node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
     },
-    "version": "0.0.2"
+    "version": "0.0.2",
+    "bin": {}
 }
 ```
 
